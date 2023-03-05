@@ -1,0 +1,92 @@
+/***************************** GENERAL ****************************/
+*body {
+    margin: 0;
+    border: 0;
+}
+
+/******************* HEADER **********************/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px solid brown;
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    top: 0;
+
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 50px;
+    width: 120px;
+    padding-left: 90px;
+    padding-right: 30px;
+    /*background-color: aqua;*/
+}
+
+
+#abonner {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    height: 35px;
+    width: 115px;   
+    font-size: 8pt;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /*background-color:green;*/
+    width: 60%;
+}
+
+nav a:link{
+   background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+#pil{
+    height: 30px;
+    width: 60px;
+    padding-right: 50px;
+}
+
+
+/*********** MAIN ************/
+
+#topbillede {
+    height: 50px;
+    width: 100%;
+}
+
+#bagbillede {
+    box-sizing: 1920px;
+    object-fit: cover;
+}
+
+
+/************** NYE HISTORIER ******************/
+
+#nyehistorier {
+    margin-top: 100px;
+    background-color: coral;
+}
